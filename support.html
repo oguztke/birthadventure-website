@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Destek - BirthAdventure</title>
+
+    <meta name="description"
+          content="BirthAdventure uygulaması için destek, sık sorulan sorular ve iletişim bilgileri.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            background: #f8f9fb;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 18px 20px;
+        }
+
+        nav {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #7b4bb7;
+            text-decoration: none;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: #444;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #7b4bb7;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #f5edff, #ffffff);
+        }
+
+        .hero h1 {
+            color: #6d3fa3;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #555;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 45px 20px;
+        }
+
+        .section {
+            background: #ffffff;
+            padding: 28px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: #6d3fa3;
+            margin-top: 0;
+        }
+
+        .faq {
+            margin-bottom: 25px;
+        }
+
+        .faq h3 {
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 13px 25px;
+            background: #7b4bb7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .contact-button:hover {
+            background: #653b99;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: white;
+            border-top: 1px solid #e5e5e5;
+            color: #777;
+        }
+
+        footer a {
+            color: #6d3fa3;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a class="logo" href="index.html">BirthAdventure</a>
+
+        <div>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="privacy.html">Gizlilik</a>
+            <a href="support.html">Destek</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>BirthAdventure Destek</h1>
+
+    <p>
+        BirthAdventure uygulamasıyla ilgili sorularınız ve teknik
+        destek talepleriniz için bize ulaşabilirsiniz.
+    </p>
+</section>
+
+<main class="container">
+
+    <section class="section">
+        <h2>Sık Sorulan Sorular</h2>
+
+        <div class="faq">
+            <h3>Uygulamaya giriş yapamıyorum. Ne yapmalıyım?</h3>
+
+            <p>
+                Öncelikle internet bağlantınızı kontrol edin ve uygulamanın
+                güncel sürümünü kullandığınızdan emin olun. Sorun devam ederse
+                destek ekibimize ulaşabilirsiniz.
+            </p>
+        </div>
+
+        <div class="faq">
+            <h3>Adım sayım neden görünmüyor?</h3>
+
+            <p>
+                Adım takibi özelliğinin çalışabilmesi için uygulamanın ilgili
+                sağlık verilerine erişmesine izin verilmesi gerekebilir.
+                Cihazınızdaki sağlık uygulaması ve izin ayarlarını kontrol edin.
+            </p>
+        </div>
+
+        <div class="faq">
+            <h3>HealthKit neden kullanılıyor?</h3>
+
+            <p>
+                iOS sürümünde HealthKit, uygulamadaki günlük adım takibi
+                özelliğini desteklemek amacıyla kullanılmaktadır.
+            </p>
+        </div>
+
+        <div class="faq">
+            <h3>Bildirimler gelmiyor. Ne yapmalıyım?</h3>
+
+            <p>
+                Cihazınızın bildirim ayarlarından BirthAdventure için
+                bildirimlerin etkin olduğundan emin olun. Ayrıca uygulama
+                içerisindeki hatırlatma ayarlarını kontrol edin.
+            </p>
+        </div>
+
+        <div class="faq">
+            <h3>Verilerimi nasıl silebilirim?</h3>
+
+            <p>
+                Kişisel veriler ve veri silme talepleri için destek ekibimize
+                başvurabilirsiniz. Talebiniz ilgili süreçler kapsamında
+                değerlendirilecektir.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <h2>Teknik Destek</h2>
+
+        <p>
+            Uygulamada bir hata veya teknik problemle karşılaşırsanız,
+            aşağıdaki bilgileri mümkün olduğunca ayrıntılı şekilde
+            iletmeniz sorunun daha hızlı incelenmesine yardımcı olur:
+        </p>
+
+        <ul>
+            <li>Kullandığınız cihaz modeli</li>
+            <li>İşletim sistemi ve sürümü</li>
+            <li>BirthAdventure uygulama sürümü</li>
+            <li>Karşılaştığınız sorunun açıklaması</li>
+            <li>Varsa hata mesajı</li>
+        </ul>
+
+    </section>
+
+
+    <section class="section contact">
+
+        <h2>Bizimle İletişime Geçin</h2>
+
+        <p>
+            Destek talepleriniz için aşağıdaki e-posta adresini
+            kullanabilirsiniz.
+        </p>
+
+        <p>
+            <strong>support@birthadventure.com.tr</strong>
+        </p>
+
+        <a class="contact-button"
+           href="mailto:support@birthadventure.com.tr">
+            Destek Ekibine E-posta Gönder
+        </a>
+
+    </section>
+
+
+    <section class="section">
+
+        <h2>Gizlilik ve Veri Talepleri</h2>
+
+        <p>
+            BirthAdventure tarafından işlenen veriler hakkında ayrıntılı
+            bilgi almak için Gizlilik Politikamızı inceleyebilirsiniz.
+        </p>
+
+        <p>
+            Veri işleme, veri silme veya diğer gizlilik talepleriniz için
+            destek ekibimizle iletişime geçebilirsiniz.
+        </p>
+
+        <p>
+            <a href="privacy.html">
+                Gizlilik Politikası'nı Görüntüle
+            </a>
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 BirthAdventure. Tüm hakları saklıdır.</p>
+
+    <p>
+        <a href="index.html">Ana Sayfa</a>
+        |
+        <a href="privacy.html">Gizlilik Politikası</a>
+        |
+        <a href="support.html">Destek</a>
+    </p>
+
+</footer>
+
+</body>
+</html>
